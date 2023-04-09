@@ -1,86 +1,8 @@
-/* Font Link */
-/* <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,300&display=swap" rel="stylesheet"> */
-
 ::selection{
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #333333;
 }
 
 * {
-    font-family: 'Clash Display', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
 }
-
-.me_logo {
-    -ms-transform: rotate(-15deg); /* IE 9 */
-     transform: rotate(-15deg);
-     width: 125px;
-}
-
-.me_title {
-    font-family: 'Epilogue', sans-serif;
-    color: #000000;
-    font-size: 28px;
-    text-shadow: 2px 2px #ffee00;
-    margin-left: px;
-}
-
-.me_navmenu:hover {
-    color: #000000;
-    text-shadow: 2px 2px #ffee00;
-    cursor: pointer;
-}
-
-.me_textgreen:hover{
-    text-shadow: 2px 2px #00ff0d;
-}
-
-.me_textpink:hover{
-    text-shadow: 2px 2px #ff00a2;
-}
-
-.me_textred:hover{
-    text-shadow: 2px 2px #ff3700;
-}
-
-.me_textblue:hover{
-    text-shadow: 2px 2px #003cff;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }

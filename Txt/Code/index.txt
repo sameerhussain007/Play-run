@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="Images/ICT.png" />
+    <title>ICT</title>
+
+    <!-- Css File Links -->
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <!-- Js File Links -->
+    <script src="js/tailwind.config.js"></script>
+    <!-- Js package framework -->
+    <script src="./node_modules/preline/dist/preline.js"></script>
+
+    <!-- SCRIPT JS LINKS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- /SCRIPT JS LINKS -->
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/caca9e9263.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font -->
+    <link href="https://api.fontshare.com/v2/css?f[]=red-hat-display@700,400,500,600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css"
+    />
+    <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <!-- /Tailwind -->
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+
+    <!--  -->
+  
+
+
+    <!-- JAVASCRIPT CODE -->
+
+    <!-- /JAVASCRIPT CODE -->
+    <!-- /Website -->
+  </body>
+</html>
